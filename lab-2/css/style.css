@@ -1,0 +1,40 @@
+
+/** Step two **/
+
+h1,h2,h3
+{
+    font-family: "Cinzel", serif;
+}
+
+
+/** Step three **/
+
+h1
+{
+    font-size: 46px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #d41313;
+}
+
+/** Step four **/
+
+p,a,li
+{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/** Step five **/
+
+p>span
+{
+    color: #00d636;
+}
+
+/** Step six **/
+
+h3
+{
+    font-size: 4em;
+    text-shadow: 4px 3px 4px rgba(0,0,0,.5);
+}
