@@ -1,0 +1,92 @@
+body {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header header"
+        "masthead masthead masthead masthead"
+        "main main main main"
+        "footer footer footer footer";
+}
+
+header {
+    display: grid;
+    display: flex;
+    grid-area: header;
+    border: 1px solid black;
+}
+
+header div {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-color: brown;
+    border: 1px solid black;
+
+}
+
+header nav {
+    width: 50%;
+    text-align: center;
+}
+
+/* masthead css */
+.masthead {
+    display: grid;
+    display: flex;
+    align-items: center;
+    grid-area: masthead;
+    justify-content: center;
+    background-color: rgb(47, 30, 231);
+    text-align: center;
+    height: 5em;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-area: main;
+}
+
+menu {
+    display: flex;
+}
+
+menu li {
+    padding: 0 2em;
+    list-style-type: none;
+}
+
+/* Main Css */
+
+section.row3,
+section.row4 {
+    display: flex;
+}
+
+section.row3 div {
+    width: 33.33%;
+    background-color: aquamarine;
+    height: 5em;
+    border: 1px solid black;
+    text-align: center;
+}
+
+section.row4 div {
+    text-align: center;
+    width: 33.33%;
+    background-color: gold;
+    height: 5em;
+    border: 1px solid black;
+}
+
+/* Footer Css */
+
+footer {
+    display: grid;
+    grid-area: footer;
+    background-color: blueviolet;
+    height: 5em;
+    width: 100%;
+    text-align: center;
+}
