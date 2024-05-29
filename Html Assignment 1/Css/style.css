@@ -243,7 +243,7 @@ img.albumn_img {
 /* Css for social media links */
 
 div.sm_link {
-    max-width: 25%;
+    max-width: 50%;
 }
 
 div.sm_link>menu>li {
