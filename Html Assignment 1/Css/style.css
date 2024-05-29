@@ -1,4 +1,3 @@
-/* Css for the header */
 h1,
 h2,
 h3,
@@ -8,6 +7,7 @@ h6 {
     margin: 0;
     padding: 0;
 }
+/* Css for the header */
 
 header {
     background-color: #f8f8f8;
@@ -21,6 +21,11 @@ header {
 
 /* Css for the masthead */
 
+div.masthead>img {
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem rgb(67, 98, 232));
+}
+
 nav>h1 {
     font-size: 2.5em;
 }
@@ -28,7 +33,7 @@ nav>h1 {
 section.yt_video {
 
     background-color: rgb(230, 230, 13);
-    padding: 6.5em;
+    padding: 6.5em 6.5em 3em 6.5em;
     display: flex;
     height: 50vh;
 
@@ -40,7 +45,7 @@ section.abt_artist {
     display: flex;
     flex-direction: row-reverse;
     height: 50vh;
-
+    align-items: center;
 
 }
 
@@ -56,27 +61,28 @@ section.abt_artist {
     background-color: rgb(230, 230, 13);
 }
 
+/* Css for song title */
+
 div.yt_desc:nth-child(2) {
-    /* text-align: center; */
     padding: 3em;
     justify-content: start;
 }
 
-div.yt_desc span span h2 {
+div.yt_desc div div h2 {
 
-    font-size: 7.2em;
+    font-size: 6.2em;
 }
 
-div.yt_desc span span:nth-child(1) h2 {
-    font-family: "Notable", sans-serif;
+div.yt_desc div div:nth-child(1) h2 {
+    font-family: "dive", sans-serif;
 }
 
-div.yt_desc span span:nth-child(2) h2 {
+div.yt_desc div div:nth-child(2) h2 {
     font-family: "Alexandria", sans-serif;
 }
 
-div.yt_desc span span:nth-child(3) h2 {
-    font-size: 8.2em;
+div.yt_desc div div:nth-child(3) h2 {
+    font-size: 7.2em;
     font-family: "Bungee Shade", sans-serif;
     font-weight: 400;
 
@@ -97,7 +103,7 @@ div.artist_media {
 div.artist_media>img {
     max-width: 100%;
     height: auto;
-    filter: drop-shadow(0 0 0.75rem black);
+    filter: drop-shadow(0 0 0.75rem rgb(25, 25, 25));
 
 }
 
@@ -107,14 +113,18 @@ div.artist_desc {
     justify-content: center;
 }
 
+div.artist_desc div {
+    width: 100%;
+}
 
-span.artist_name {
+
+div.artist_name {
     font-size: 2.5em;
     text-align: center;
     font-weight: 300;
 }
 
-span.artist_name>h2>span {
+div.artist_name>h2>span {
     font-family: "Cinzel", serif;
     font-style: italic;
 }
@@ -122,7 +132,7 @@ span.artist_name>h2>span {
 
 
 
-span.artist_story>h4 {
+div.artist_story>h4 {
     font-size: 1.5em;
     padding: 3em 1em;
     text-align: justify;
@@ -144,7 +154,7 @@ section.lyrics_heading>h4 {
 
 }
 
-/* Lyrics css sytarts form here */
+/* Lyrics css starts form here */
 
 div.vr1,
 .vr2,
@@ -167,7 +177,7 @@ div.vr1,
 
 }
 
-/* Css for applying gradient background to the lyrics */
+/* Css for applying gradient background to the lyrics to show emotions*/
 
 section.verse1 {
     background: linear-gradient(360deg, rgb(230, 152, 6), rgb(230, 230, 13));
@@ -178,7 +188,7 @@ section.verse2 {
 }
 
 section.verse3 {
-    background: linear-gradient(360deg, rgb(230, 230, 13), rgb(254, 188, 199));
+    background: linear-gradient(360deg, rgb(243, 218, 171), rgb(254, 188, 199));
 }
 
 /* footer css */
@@ -206,16 +216,16 @@ section.footer_sec>div>h5 {
 }
 
 div.con_det {
-    border-bottom: 1px solid wheat;
+    border-bottom: 1px solid rgb(243, 218, 171);
 }
 
-div.con_det>span>h4 {
+div.con_det>div>h4 {
     font-size: 1.5em;
     font-family: "AR One Sans", sans-serif;
     text-align: left;
 }
 
-div.con_det>span {
+div.con_det>div {
     padding: 0;
 }
 
