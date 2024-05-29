@@ -1,0 +1,118 @@
+/* Css for the header */
+h1,h2,h3,h4,h5,h6
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 3em;
+}
+
+/* Css for the masthead */
+
+nav>h1
+{
+    font-size: 2.5em;
+}
+
+section.yt_video{
+    display: flex;
+    height: 50vh;
+}
+
+section.abt_artist
+{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50vh;
+}
+
+section.yt_video div,section.abt_artist div
+{
+    width: 50%;
+}
+
+div.yt_desc,section.abt_artist
+{
+    background-color: yellow;
+}
+
+div.yt_desc:nth-child(2)
+{
+    /* text-align: center; */
+    padding: 3em;
+    justify-content: start;
+}
+
+div.yt_desc span span h2
+{
+    
+    font-size: 4.2em;
+
+}
+
+div.yt_desc span span:nth-child(3) h2
+{
+    font-size: 5.2em;
+
+}
+
+/* Css for the about artist row starts */
+
+section.abt_artist
+{
+    padding: 2.5em 2.5em 0 2.5em;
+}
+
+div.artist_media
+{
+    width: 17em;
+    text-align-last: center;
+    height: 100%;
+}
+
+div.artist_media>img
+{
+   max-width: 100%;
+   height: auto;
+}
+
+div.artist_desc
+{
+    justify-content: center;
+}
+
+span.artist_name
+{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+span.artist_story>h4
+{
+    font-size: 1.5em;
+    padding: 3em 1em;
+    text-align: justify;
+}
+
+/* Lyrics heading */
+
+section.lyrics_heading>h4
+{
+    text-align: center;
+    font-size: 5em;
+}
+
+/* Lyrics css sytarts form here */
+
+div.vr1
+{
+    font-size: 1.5em;
+    text-align: center;
+}
