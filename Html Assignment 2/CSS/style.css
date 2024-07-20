@@ -1,0 +1,437 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Media/diagonal-striped-brick.png);
+    background-color: #f5f5dc;
+}
+
+header {
+    background-color: #72e2ff;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.3em solid #151515;
+    font-family: "Outfit", sans-serif;
+    font-style: italic;
+}
+
+header>div {
+    padding: 1em;
+}
+
+header>div>a>img {
+    width: 15em;
+}
+
+header nav {
+    flex-grow: 1;
+    align-self: center;
+}
+
+header menu {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+
+}
+
+header menu li {
+    display: flex;
+    list-style-type: none;
+    padding: 1em;
+}
+
+header menu li a {
+    text-decoration: none;
+    color: #151515;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+header menu li a img {
+    width: 1.4em;
+}
+
+/* Css for Masthead begins */
+
+div.masthead {
+    border-radius: 2em;
+    border: 0.3em solid #151515;
+    margin: 2em 1em;
+    display: flex;
+}
+
+div.masthead_div>a>img {
+    border-radius: 2em;
+    width: 100%;
+}
+
+div.overlay1 {
+    position: absolute;
+    font-size: 6em;
+
+    color: #f2eef2;
+    text-shadow: 4px 4px 0px #492526, 0 0 5px #ff4abe;
+
+
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+
+    padding-left: 2%;
+    padding-top: 2%;
+    text-align: center;
+
+}
+
+div.overlay1>p {
+    margin: 0;
+}
+
+div.overlay1>span {
+    background-color: #cffc1d;
+    padding: 0.4em;
+    font-size: 0.4em;
+    border: 4px solid #151515;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+    outline: none;
+}
+
+div.overlay1>span:hover {
+    box-shadow: 6px 8px 0px #151515;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+div.overlay1>span>a {
+    text-decoration: none;
+    color: #151515;
+    text-shadow: none;
+    font-family: "Outfit", sans-serif;
+    font-style: italic;
+}
+
+
+div.marquee-text {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-size: 5.5em;
+    font-style: normal;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(142, 145, 142), 0 0 0.2em rgb(142, 145, 142);
+}
+
+
+/* Section 1 Css starts */
+
+
+div.display-par-con h2
+{
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 1em;
+    font-family: "Poetsen One", sans-serif;
+    font-family: "Outfit", sans-serif;   
+}
+
+
+section.sec1 {
+    border-radius: 2em;
+    /* background: linear-gradient(#4FC3F7,#d5f943); */
+    background-color: #151515;
+    background-size: cover;
+    border: 0.3em solid #151515;
+    margin: 1em;
+    height: 100vh;
+}
+
+div.featured-product {
+    background-image: url(/Media/assest2.png);
+    
+    display: flex;
+    padding: 1em;
+    display: flex;
+    place-content: center;
+    height: 100%;
+    align-self: center;
+
+}
+
+div.featured-product div {
+    /* align-self: center; */
+    text-align: center;
+    align-content: space-evenly;
+    width: 100%;
+}
+
+
+div.featured-product div h2
+{
+    font-size: 3em;
+    color: rgb(188 44 122);
+    text-shadow: 1px 1px 2px #ffffff;
+    /* text-shadow: 1px 1px 2px rgb(169, 166, 166), 0 0 1em rgb(134, 134, 134), 0 0 0.2em rgb(160, 158, 158); */
+
+
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+
+}
+
+div.featured-product div video
+{
+    align-self: center;
+    width: 70%;
+}
+
+
+/* div.featured-product div img {
+
+    width: 90vh;
+    transform: scale(0.9);
+    transition: transform .3s ease-in-out;
+    overflow: hidden;
+}
+
+div.featured-product div a img:hover {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0.75rem #151515);
+} */
+
+
+div.featured-product>a:nth-child(2) {
+
+    width: 100%;
+}
+
+/* Product display Css starts from here */
+
+section.sec2 {
+    margin: 1em;
+    background-color: #cffc1d;
+    border-radius: 2em;
+    border: 0.3em solid #151515;
+}
+
+div.display-par-con {
+    background-image: url(/Media/assest3.png);
+    border-radius: 2em;
+}
+
+div.new_products {
+    display: flex;
+    border-radius: 2em;
+    justify-content: space-evenly;
+    padding: 5em;
+}
+
+div.new_products div {
+    border: 1px solid #151515;
+
+}
+
+div.product-display div img {
+    width: 25em;
+}
+
+div.product-display div img:hover {
+    transform: scale(1.1);
+}
+
+div.product-display div img {
+
+    transform: scale(1);
+    transition: transform .3s ease-in-out;
+    overflow: hidden;
+    display: flex;
+}
+
+div.product-display div {
+    transform: scale(1);
+    transition: transform .3s ease-in-out;
+    overflow: hidden;
+    display: flex;
+}
+
+div.buying_opt {
+    background-color: aliceblue;
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+div.buying_opt:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 6px 8px 0px #151515;
+}
+
+div.buying_opt a {
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 0;
+    font-size: 1.2em;
+    color: #151515;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+}
+
+
+/* Footer CSS starts */
+
+footer {
+    font-family: "Outfit", sans-serif;
+    background-color: #72e2ff;
+    padding: 2em;
+    height: 100vh;
+}
+
+div.footer-logo a img {
+    width: 25em;
+}
+
+div.footer-con {
+    background-image: url(/Media/assest4.png);
+    border-radius: 2em;
+    border: 0.3em solid #151515;
+    padding: 3em;
+}
+
+div.footer-content {
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.footer-content div a {
+    text-decoration: none;
+    color: #151515;
+    display: block;
+    margin: 1.8em;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+
+div.sm-div nav {
+    display: flex;
+    margin-top: 50px;
+}
+
+div.footer-heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.sm-div nav a {
+    margin: 2em;
+    display: block;
+    border: 3px solid #151515;
+    padding: 5px;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: #fafafa;
+}
+
+div.sm-div nav a img {
+    width: 100%;
+    height: auto;
+    border: 50%;
+}
+
+
+div.sm-div nav a:hover
+{
+    box-shadow: 3px 4px 0px #151515;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+div.cmp-links>nav>a:nth-child(1) {
+    font-weight: 800;
+}
+
+div.foot-form>form>div {
+    margin-top: 2em;
+}
+
+div.foot-form>form>div>label {
+    display: block;
+    font-size: 1.4em;
+
+}
+
+div.foot-form>form>div>input:focus {
+    transition: box-shadow 0.3s ease-in-out;
+    /* Moved here */
+    box-shadow: 3px 4px 0px #151515;
+    outline: none;
+}
+
+div.submit-form>input {
+    padding: 0.5em;
+    border-radius: 1em;
+
+}
+
+div.submit-form {
+    text-align: center;
+}
+
+div.submit-form>input:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 3px 4px 0px #151515;
+}
+
+/* ------- css for responsive layout of website------- */
+
+@media only screen and (max-width:1600px) {}
+
+@media only screen and (max-width:1440px) {
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 850px) {
+
+}
+
+@media only screen and (max-width:769px) {
+
+    
+}
+
+@media only screen and (max-width: 640px) {
+
+   
+}
+
+
+@media only screen and (max-width: 426px) {
+
+   
+}
+
+@media only screen and (max-width: 320px) {}
+
+
+/* css for responsivness ends */
