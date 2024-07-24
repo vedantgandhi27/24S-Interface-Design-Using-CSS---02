@@ -411,6 +411,67 @@ div.submit-form>input:hover {
     box-shadow: 3px 4px 0px #151515;
 }
 
+/* Hamburger Menu Css */
+
+div.show-ham,div.ham-menu
+{
+    display: none;
+}
+
+div.show-ham
+{
+    align-self: center;
+}
+
+div.show_class
+{
+    display: block;
+    transition: 0.5s !important;
+    left: 0% !important;
+}
+
+div.ham-menu
+{
+    display: none;
+    height: 100%;
+    width: 100vw;
+    background-color: #00bbf0;
+    display: block;
+    flex-direction: column;
+    left: -100%;
+    position: absolute;
+    height: 100%;
+    z-index: 200;
+    overflow: hidden;
+}
+
+div.show-ham>img
+{
+    width: 3em;
+    align-self: center;
+    margin-top: 1em;
+}
+
+nav.ham-navMenu
+{
+    width: 100%;
+}
+
+nav.ham-navMenu menu li
+{
+    list-style-type: none;
+    border-bottom: 0.15em solid #151515;
+    margin: 2em;
+}
+
+nav.ham-navMenu menu li a
+{
+    text-decoration: none;
+    font-size: 2.0em;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    color: #151515;
+}
 /* ------- css for responsive layout of website------- */
 
 @media only screen and (max-width:1600px) {}
@@ -555,10 +616,86 @@ div.submit-form>input:hover {
         flex-direction: column;
     }
 
+    nav.nav-main
+    {
+        display: none;
+    }
+
+    
+    div.overlay1 {
+        font-size: 3.0em;
+    }
+
+    div.featured-product div video {
+        width: 55%;
+    }
+
+    div.marquee-text {
+        text-shadow: 1px 1px 2px red, 0 0 0.1em rgb(142, 145, 142), 0 0 0.2em rgb(142, 145, 142);
+    }
+
+    div.product-display div img {
+        width: 26em;
+    }
+
+    div.sm-div nav a {
+        margin: 1em;
+
+    }
+
+    div.footer-content {
+        flex-wrap: wrap;
+        align-items: start;
+        /* text-align-last:center; */
+    }
+
+    div.cmp-links
+    {
+        text-align: start;
+    }
+
+    div.footer-content>div:nth-child(3),div.footer-content>div:nth-child(4)
+    {
+        margin-top: 3em;
+    }
+
+    div.overlay1>span {
+        padding: 0.6em;
+        font-size: 0.5em;
+    }
+
+    /* Hamburger menu CSS */
+
+    div.show-ham
+    {
+        display: flex;
+    }
+
+    header
+    {
+        justify-content: space-between;
+    }
+
 }
 
 @media only screen and (max-width:769px) {
 
+    div.overlay1 {
+        font-size: 2.5em;
+    }
+
+    div.footer-heading {
+        flex-direction: column;
+    }
+
+    div.footer-content>div
+    {
+        width: 25%;
+    }
+
+    div.display-par-con h2 {
+        font-size: 2.5em;
+    }
     
 }
 

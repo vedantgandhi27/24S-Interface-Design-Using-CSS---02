@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="/CSS/Normalize.css">
     <link rel="stylesheet" href="/CSS/style.css">
+    <script src="/Script/script.js" defer></script>
 
     <!-- Meta-tags -->
     <meta name="description"
@@ -47,7 +48,7 @@
         <div>
             <a href="index.html"><img src="/Media/Feastables_Logo.avif" alt="logo"></a>
         </div>
-        <nav>
+        <nav class="nav-main">
             <menu>
                 <li><a href="/index.html">Feast</a></li>
                 <li><a href="/index.html">Gifting</a></li>
@@ -58,7 +59,23 @@
                 <li><a href="/index.html"><img src="Media/shopping_bag.svg" alt="Shopping bag"></a></li>
             </menu>
         </nav>
+        <div class="show-ham">
+            <img src="/Media/hamburger.svg" alt="Hamburger menu" onclick="toggleMenu()">
+        </div>
     </header>
+    <div class="ham-menu">
+        <nav class="ham-navMenu">
+            <menu>
+                <li><a href="/index.html">Feast</a></li>
+                <li><a href="/index.html">Gifting</a></li>
+                <li><a href="/index.html">Explore</a></li>
+                <li><a href="/index.html">My Account</a></li>
+                <li><a href="/index.html">My Wishlist</a></li>
+                <li><a href="/index.html">Region</a></li>
+                <li><a href="/index.html">My Bag</a></li>
+            </menu>
+        </nav>
+    </div>
 
     <!-- Header Ends and the MastHead Begins -->
     <section class="lesson-masthead">
