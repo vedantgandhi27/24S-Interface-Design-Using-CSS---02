@@ -62,9 +62,16 @@ div.masthead {
     display: flex;
 }
 
-div.masthead_div>a>img {
+div.masthead_div>img {
     border-radius: 2em;
     width: 100%;
+}
+
+div.masthead_div
+{
+    background-color: #00bbf0;
+    border-radius: 2em;
+    display: flex;
 }
 
 div.overlay1 {
@@ -127,7 +134,7 @@ div.marquee-text {
     font-weight: 400;
     font-size: 5.5em;
     font-style: normal;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(142, 145, 142), 0 0 0.2em rgb(142, 145, 142);
+    text-shadow: 1px 1px 2px red, 0 0 0.1em rgb(142, 145, 142), 0 0 0.2em rgb(142, 145, 142);
 }
 
 
@@ -147,12 +154,10 @@ div.display-par-con h2
 
 section.sec1 {
     border-radius: 2em;
-    /* background: linear-gradient(#4FC3F7,#d5f943); */
     background-color: #151515;
     background-size: cover;
     border: 0.3em solid #151515;
     margin: 1em;
-    /* height: 100vh; */
 }
 
 div.featured-product {
@@ -168,8 +173,6 @@ div.featured-product {
 }
 
 div.featured-product div {
-    /* align-self: center; */
-
     text-align: -webkit-center;
     align-content: space-evenly;
     width: 100%;
@@ -181,9 +184,6 @@ div.featured-product div h2
     font-size: 3em;
     color: rgb(188 44 122);
     text-shadow: 1px 1px 2px #ffffff;
-    /* text-shadow: 1px 1px 2px rgb(169, 166, 166), 0 0 1em rgb(134, 134, 134), 0 0 0.2em rgb(160, 158, 158); */
-
-
     font-family: "Poetsen One", sans-serif;
     font-weight: 800;
     font-style: bold;
@@ -206,7 +206,6 @@ div.buy-featured>span
     width: 50%;
     border: .2em solid #151515;
     transition: box-shadow 0.3s ease-in-out;
-    /* box-shadow: 6px 8px 0px #e0e0e0; */
 }
 
 div.buy-featured>span:hover {
@@ -309,7 +308,7 @@ footer {
     font-family: "Outfit", sans-serif;
     background-color: #72e2ff;
     padding: 2em;
-    height: 100vh;
+    height: auto;
 }
 
 div.footer-logo a img {
@@ -391,7 +390,6 @@ div.foot-form>form>div>label {
 
 div.foot-form>form>div>input:focus {
     transition: box-shadow 0.3s ease-in-out;
-    /* Moved here */
     box-shadow: 3px 4px 0px #151515;
     outline: none;
 }
@@ -433,12 +431,12 @@ div.show_class
 div.ham-menu
 {
     display: none;
-    height: 100%;
+    height: 500%;
     width: 100vw;
     background-color: #00bbf0;
     display: block;
     flex-direction: column;
-    left: -100%;
+    left: -120%;
     position: absolute;
     height: 100%;
     z-index: 200;
@@ -472,6 +470,11 @@ nav.ham-navMenu menu li a
     font-family: "Outfit", sans-serif;
     color: #151515;
 }
+
+
+body.no-scroll {
+    overflow: hidden;
+}
 /* ------- css for responsive layout of website------- */
 
 @media only screen and (max-width:1600px) {}
@@ -498,6 +501,10 @@ nav.ham-navMenu menu li a
         font-size: 5em;
     }
 
+    footer
+    {
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -530,6 +537,8 @@ nav.ham-navMenu menu li a
     div.overlay1 {
         font-size: 4em;
     }
+
+
 
 }
 
@@ -690,27 +699,146 @@ nav.ham-navMenu menu li a
 
     div.footer-content>div
     {
-        width: 25%;
+        width: 50%;
     }
 
     div.display-par-con h2 {
         font-size: 2.5em;
     }
+
+    div.product-display div img {
+        width: 22em;
+    }
     
+    footer
+    {
+        padding: 1em;
+    }
+
 }
 
 @media only screen and (max-width: 640px) {
 
+    div.footer-content>div
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.product-display div img {
+        width: 19em;
+    }
+
+    div.featured-product div h2 {
+        font-size: 2.3em;
+    }
+
+    div.featured-product div video {
+        width: 85%;
+    }    
+
+    div.buy-featured>span>a {
+        font-size: 1.3em;
+    }
+
+    nav.ham-navMenu menu li {
+        margin: 1.3em
+    }
+
+    nav.ham-navMenu menu li a {
+        font-size: 1.6em;
+    }
+
+    /* header */
+
+    div.overlay1 {
+        display: block;
+        height: 5.5em;
+        font-size: 2.5em;
+        width: 100%;
+        background: #00bbf0;
+        left:   0;
+        border-radius: 1.52em;
+        border: 0.15em solid #151515;
+        position: relative;
+    }
+
+    div.masthead
+    {
+        height: 1em;
+        border: none;
+        margin-bottom: 9em;
+    }
+
+    
+    div.masthead_div>img {
+        display: none;
+    }
+
+    div.marquee-text
+    {
+        padding-top: 20%;
+    }
+    
    
 }
 
 
 @media only screen and (max-width: 426px) {
 
+    div.product-display div img {
+        width: 13em;
+    }
+
+    div.buying_opt a {
+        padding: 1.0em 0;
+    }
+
+    div.display-par-con h2 {
+        font-size: 2em;
+    }
+
+    div.featured-product div h2 {
+        font-size: 2.0em;
+    }
+
+    div.sm-div nav a {
+        margin: 0.5em;
+    }
+
+    /* header */
+
+    div.overlay1 {
+        display: block;
+        height: 5.5em;
+        font-size: 2.5em;
+        width: 100%;
+        background: #00bbf0;
+        left:   0;
+        border-radius: 1.52em;
+        border: 0.15em solid #151515;
+        position: relative;
+    }
+
+    div.masthead
+    {
+        height: 1em;
+        border: none;
+        margin-bottom: 9em;
+    }
+
+    
+    div.masthead_div>img {
+        display: none;
+    }
+
+    div.marquee-text
+    {
+        padding-top: 20%;
+    }
+
+
    
 }
-
-@media only screen and (max-width: 320px) {}
-
 
 /* css for responsivness ends */
