@@ -92,7 +92,6 @@ div.overlay1 {
 
     font-family: "Poetsen One", sans-serif;
     font-weight: 800;
-    font-style: bold;
 
     padding-left: 2%;
     padding-top: 2%;
@@ -186,7 +185,6 @@ div.featured-product div h2
     text-shadow: 1px 1px 2px #ffffff;
     font-family: "Poetsen One", sans-serif;
     font-weight: 800;
-    font-style: bold;
 
 }
 
@@ -364,7 +362,6 @@ div.sm-div nav a {
 div.sm-div nav a img {
     width: 100%;
     height: auto;
-    border: 50%;
 }
 
 
