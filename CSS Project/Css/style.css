@@ -176,3 +176,103 @@ div.ipad-overlay
 {
     position: absolute;
 }
+
+/* Footer Css */
+
+footer
+{
+    font-family: "Jost", sans-serif;
+}
+
+/* Footer first section Css */
+section.footer-con,section.foot-con-links
+{
+    padding: 2em;
+    background-color: #1f1f1f;
+}
+
+div.foot-heading
+{
+    width: 35%;
+}
+
+div.foot-heading>p
+{
+    font-size: 1.4em;
+    color: #efe7e7;
+    font-weight: 800;
+}
+
+div.foot-main-con
+{
+    background-color: #2e2e2e;
+    padding: 2em;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+div.foot-main-con>h5
+{
+    font-weight: 800;
+    font-size: 1em;
+    color: #efe7e7;
+}
+div.foot-main-con>p
+{
+    color: #b1b1b1;
+}
+
+p.payment-info
+{
+    margin-top: 1em;
+}
+
+/* footer Second section CSS */
+
+section.foot-con-links
+{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #b1b1b1;
+    
+}
+
+div.web-links>nav>a
+{
+    text-decoration: none;
+    color: #efefef;
+}
+
+
+
+div.web-links nav
+{
+    display: flex;
+    flex-direction: column;
+}
+
+div.web-links nav h4
+{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #e5e5e5;
+    margin-bottom: 1em;
+}
+/* Footer third section css */
+
+section.legal-documentation
+{
+    padding: 2em;
+    background-color: #2e2e2e;
+    color: #e5e5e5;
+}
+section.legal-documentation a p
+{
+    margin-top: 0.5em;
+}
+section.legal-documentation a 
+{
+    
+    color: #e5e5e5;
+    text-decoration: none;
+}
