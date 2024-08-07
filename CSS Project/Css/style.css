@@ -113,13 +113,13 @@ nav.ham-navMenu menu li
 {
     list-style-type: none;
     border-bottom: 0.15em solid #151515;
-    margin: 2em;
+    margin: 0 0 1.2em 2em !important;
 }
 
 nav.ham-navMenu menu li a
 {
     text-decoration: none;
-    font-size: 2.0em;
+    font-size: 1.8em;
     font-weight: 600;
     font-family: "Outfit", sans-serif;
     color: #f9f4f4;
@@ -139,6 +139,7 @@ section.masthead-sec
     background-image: url('../Media/masthead.jpeg');
     position: relative;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     font-family: "Cabin", sans-serif;
 }
@@ -200,6 +201,7 @@ div.main-product1,div.main-product2
     position: relative;
     height: 80vh;
     background-size: cover;
+    background-position: center;
 }
 
 div.main-product2
@@ -284,6 +286,7 @@ div.main-productpro1,div.main-productpro2
     height: 80vh;
     background-size: cover;
     font-family: "Figtree", sans-serif;
+    background-position: center;
 
 }
 
@@ -364,6 +367,7 @@ div.foot-main-con>h5
 div.foot-main-con>p
 {
     color: #b1b1b1;
+    text-align: justify;
 }
 
 p.payment-info
@@ -385,6 +389,8 @@ div.web-links>nav>a
 {
     text-decoration: none;
     color: #efefef;
+    place-self: center;
+    padding: 0.3em 0;
 }
 
 
@@ -400,7 +406,7 @@ div.web-links nav h4
     font-size: 1.2em;
     font-weight: 600;
     color: #e5e5e5;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
 /* Footer third section css */
 
@@ -432,14 +438,23 @@ section.legal-documentation a
 
 @media only screen and (max-width: 1280px) {
 
+    div.watch-overlay, div.ipad-overlay {
+        top: 2em;
+    }
+
 
 }
 
 @media only screen and (max-width: 1024px) {
 
 
+
     div.foot-heading {
-        width: 50%;
+        width: 70%;
+    }
+
+    div.overlay p {
+        PADDING: 0 1em;
     }
 
 }
@@ -461,6 +476,16 @@ section.legal-documentation a
         justify-content: space-between;
     }
 
+    section.watch-ipad, section.ipad-macbook {
+        flex-direction: column;
+    }
+
+    div.main-product1, div.main-product2,div.main-productpro1,div.main-productpro2 {
+        width: 100%;
+        margin: 0.4em 0em 0.4em 0em;
+    }
+
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -474,12 +499,47 @@ div.show-ham>img
 {
     width: 1.9em;
 }
+
+div.overlay {
+    color: rgb(226, 230, 233);
+    font-weight: bold;
+    width: 90%;
+    font-size: 2em;
+}
+
+div.foot-heading {
+    width: 100%;
+}
+
+section.foot-con-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.web-links>nav>a
+{
+    font-size: 1.3em;
+}
+
+div.web-links nav h4
+{
+    font-size: 1.5em;
+} 
+
+div.watch-overlay>img
+{
+    width: 7em;
+}
    
 }
 
 
 @media only screen and (max-width: 426px) {
 
+    div.overlay {
+        font-size: 1.8em;
+    }
    
 }
 
