@@ -57,6 +57,79 @@ nav.nav-main menu li a img
     width: 1.5em;
 }
 
+/* Hamburger Menu Css */
+
+div.show-ham>img
+{
+    width: 195em;
+}
+
+
+div.show-ham,div.ham-menu
+{
+    display: none;
+}
+
+div.show-ham
+{
+    align-self: center;
+}
+
+div.show_class
+{
+    display: block;
+    transition: 0.5s !important;
+    left: 0% !important;
+}
+
+div.ham-menu
+{
+    display: none;
+    height: 500%;
+    width: 100vw;
+    background-color: #171414;
+    display: block;
+    flex-direction: column;
+    left: -120%;
+    position: absolute;
+    height: 100%;
+    z-index: 200;
+    overflow: hidden;
+}
+
+div.show-ham>img
+{
+    width: 1.8em;
+    align-self: center;
+    margin-top: 1em;
+}
+
+nav.ham-navMenu
+{
+    width: 100%;
+}
+
+nav.ham-navMenu menu li
+{
+    list-style-type: none;
+    border-bottom: 0.15em solid #151515;
+    margin: 2em;
+}
+
+nav.ham-navMenu menu li a
+{
+    text-decoration: none;
+    font-size: 2.0em;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    color: #f9f4f4;
+}
+
+
+body.no-scroll {
+    overflow: hidden;
+}
+
 /* CSS for header ends and masthead starts */
 
 section.masthead-sec
@@ -347,3 +420,67 @@ section.legal-documentation a
     color: #e5e5e5;
     text-decoration: none;
 }
+
+/* ------- css for responsive layout of website------- */
+
+@media only screen and (max-width:1600px) {}
+
+@media only screen and (max-width:1440px) {
+
+  
+}
+
+@media only screen and (max-width: 1280px) {
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+    div.foot-heading {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width:769px) {
+
+    nav.nav-main
+    {
+        display: none;
+    }
+
+    div.show-ham
+    {
+        display: block;
+    }
+
+    header
+    {
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    
+section.masthead-sec {
+padding: 2em;
+}
+
+div.show-ham>img
+{
+    width: 1.9em;
+}
+   
+}
+
+
+@media only screen and (max-width: 426px) {
+
+   
+}
+
+/* css for responsivness ends */
