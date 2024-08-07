@@ -1,11 +1,10 @@
-*
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-header
-{
+
+header {
     background-color: #171414;
     padding: 1em;
     display: flex;
@@ -13,77 +12,66 @@ header
     font-family: "Cabin", sans-serif;
 }
 
-div.logo-div
-{
+div.logo-div {
     align-self: center;
     padding-right: 1em;
 }
 
-div.logo-div a img
-{
+div.logo-div a img {
     width: 1.4em;
 }
 
-nav.nav-main
-{
+nav.nav-main {
     align-self: flex-end;
 }
 
-nav.nav-main menu
-{
+nav.nav-main menu {
     display: flex;
     align-self: center;
 }
 
-nav.nav-main menu li
-{
+nav.nav-main menu li {
     list-style-type: none;
     padding: 0 0.5em;
 }
 
-nav.nav-main menu li a
-{
+nav.nav-main menu li a {
     color: aliceblue;
     text-decoration: none;
 }
 
-div.show-ham, div.ham-menu
-{
+div.show-ham,
+div.ham-menu {
     display: none;
 }
 
-nav.nav-main menu li a img
-{
+nav.nav-main menu li a img {
     width: 1.5em;
 }
 
 /* Hamburger Menu Css */
 
-div.show-ham>img
-{
+div.show-ham>img {
     width: 195em;
 }
 
 
-div.show-ham,div.ham-menu
-{
+div.show-ham,
+div.ham-menu {
     display: none;
 }
 
-div.show-ham
-{
+div.show-ham {
     align-self: center;
 }
 
-div.show_class
-{
+div.show_class {
     display: block;
     transition: 0.5s !important;
     left: 0% !important;
 }
 
-div.ham-menu
-{
+div.ham-menu {
     display: none;
     height: 500%;
     width: 100vw;
@@ -97,27 +85,23 @@ div.ham-menu
     overflow: hidden;
 }
 
-div.show-ham>img
-{
+div.show-ham>img {
     width: 1.8em;
     align-self: center;
     margin-top: 1em;
 }
 
-nav.ham-navMenu
-{
+nav.ham-navMenu {
     width: 100%;
 }
 
-nav.ham-navMenu menu li
-{
+nav.ham-navMenu menu li {
     list-style-type: none;
     border-bottom: 0.15em solid #151515;
-    margin: 0 0 1.2em 2em !important;
+    margin: 0 0 1.0em 2em !important;
 }
 
-nav.ham-navMenu menu li a
-{
+nav.ham-navMenu menu li a {
     text-decoration: none;
     font-size: 1.8em;
     font-weight: 600;
@@ -132,8 +116,7 @@ body.no-scroll {
 
 /* CSS for header ends and masthead starts */
 
-section.masthead-sec
-{
+section.masthead-sec {
     background-color: #000000;
     text-align: center;
     background-image: url('../Media/masthead.jpeg');
@@ -144,8 +127,7 @@ section.masthead-sec
     font-family: "Cabin", sans-serif;
 }
 
-div.overlay
-{
+div.overlay {
     color: rgb(226, 230, 233);
     font-weight: bold;
     width: 100%;
@@ -154,13 +136,12 @@ div.overlay
     top: 2em;
 }
 
-div.overlay p
-{
+div.overlay p {
     margin-bottom: 1em;
 }
 
-span.overlay-button1 a,span.overlay-button2 a
-{
+span.overlay-button1 a,
+span.overlay-button2 a {
     padding: 0.5em;
     font-size: 0.6em;
     background-color: #0071e3;
@@ -171,8 +152,8 @@ span.overlay-button1 a,span.overlay-button2 a
     transition: box-shadow 0.3s ease-in-out;
 }
 
-span.overlay-button1 a:hover,span.overlay-button2 a:hover
-{
+span.overlay-button1 a:hover,
+span.overlay-button2 a:hover {
     box-shadow: 0px 0px 15px 2px #0071e3;
 }
 
@@ -181,22 +162,21 @@ span.overlay-button1 a:hover,span.overlay-button2 a:hover
 
 /* CSS For Watch and Ipad Air*/
 
-section.watch-ipad,section.ipad-macbook
-{
+section.watch-ipad,
+section.ipad-macbook {
     display: flex;
     background-color: #efe7e7;
     /* padding: 0.3em; */
 }
 
-div.main-product1
-{
+div.main-product1 {
     /* padding: 0.5em; */
     background-image: url('../Media/watch.jpg');
     margin: 0.4em 0.4em 0.4em 0.4em;
 }
 
-div.main-product1,div.main-product2
-{
+div.main-product1,
+div.main-product2 {
     width: 50%;
     position: relative;
     height: 80vh;
@@ -204,14 +184,13 @@ div.main-product1,div.main-product2
     background-position: center;
 }
 
-div.main-product2
-{
+div.main-product2 {
     background-image: url('../Media/ipad_air.jpg');
     margin: 0.4em 0.4em 0.4em 0em;
 }
 
-div.watch-overlay,div.ipad-overlay
-{
+div.watch-overlay,
+div.ipad-overlay {
     top: 4em;
     width: 100%;
     text-align: center;
@@ -219,38 +198,35 @@ div.watch-overlay,div.ipad-overlay
     z-index: 20;
 }
 
-div.watch-overlay-text
-{
+div.watch-overlay-text {
     place-content: center;
     color: aliceblue;
     margin-top: 1em;
     display: flex;
 }
 
-div.watch-overlay>p{
+div.watch-overlay>p {
     color: aliceblue;
     font-size: 1.2em;
     font-family: "Figtree", sans-serif;
 }
 
-p.updated-ipad-info
-{
+p.updated-ipad-info {
     color: #1f1f1f;
     font-family: "Figtree", sans-serif;
     font-weight: 500;
 }
 
-div.ipad-overlay>img
-{
+div.ipad-overlay>img {
     margin-bottom: 1em;
     font-size: 1.2em;
 }
 
-span.watch-overlay-button1 a,span.watch-overlay-button2 a
-{
+span.watch-overlay-button1 a,
+span.watch-overlay-button2 a {
     margin-left: 1em;
     display: block;
-    
+
     margin-top: 1em;
     color: aliceblue;
     text-decoration: none;
@@ -266,21 +242,20 @@ span.watch-overlay-button1 a,span.watch-overlay-button2 a
 }
 
 span.updated-button1 a,
-span.updated-button2 a
-{
+span.updated-button2 a {
     background-color: #171414;
 }
 
-span.watch-overlay-button1 a:hover,span.watch-overlay-button2 a:hover
-{
+span.watch-overlay-button1 a:hover,
+span.watch-overlay-button2 a:hover {
     box-shadow: 0px 0px 15px 2px #0071e3;
 
 }
 
 /* CSS for ipad Pro and macbook pro */
 
-div.main-productpro1,div.main-productpro2
-{
+div.main-productpro1,
+div.main-productpro2 {
     width: 50%;
     position: relative;
     height: 80vh;
@@ -290,103 +265,90 @@ div.main-productpro1,div.main-productpro2
 
 }
 
-div.main-productpro1
-{
-    margin: 0 0.3em 0.3em 0.3em;
-}
-div.main-productpro1
-{
+div.main-productpro1 {
     margin: 0 0.3em 0.3em 0.3em;
 }
 
-p.pro-phrase1
-{
+div.main-productpro1 {
+    margin: 0 0.3em 0.3em 0.3em;
+}
+
+p.pro-phrase1 {
     color: #1f1f1f !important;
 }
 
-p.updated-ipadpro-info
-{
+p.updated-ipadpro-info {
     color: #efe7e7;
 }
 
-h2.ipad-pro-phrase
-{
+h2.ipad-pro-phrase {
     color: #efe7e7;
 }
 
-div.main-productpro1
-{
+div.main-productpro1 {
     background-image: url('../Media/macbook_pro.jpg');
 }
-div.main-productpro2
-{
+
+div.main-productpro2 {
     background-image: url('../Media/ipad_pro.jpg');
 }
 
 
 /* Footer Css */
 
-footer
-{
+footer {
     font-family: "Jost", sans-serif;
 }
 
 /* Footer first section Css */
-section.footer-con,section.foot-con-links
-{
+section.footer-con,
+section.foot-con-links {
     padding: 2em;
     background-color: #1f1f1f;
 }
 
-div.foot-heading
-{
+div.foot-heading {
     width: 35%;
 }
 
-div.foot-heading>p
-{
+div.foot-heading>p {
     font-size: 1.4em;
     color: #efe7e7;
     font-weight: 800;
 }
 
-div.foot-main-con
-{
+div.foot-main-con {
     background-color: #2e2e2e;
     padding: 2em;
     border-radius: 10px;
     margin-top: 1em;
 }
 
-div.foot-main-con>h5
-{
+div.foot-main-con>h5 {
     font-weight: 800;
     font-size: 1em;
     color: #efe7e7;
 }
-div.foot-main-con>p
-{
+
+div.foot-main-con>p {
     color: #b1b1b1;
     text-align: justify;
 }
 
-p.payment-info
-{
+p.payment-info {
     margin-top: 1em;
 }
 
 /* footer Second section CSS */
 
-section.foot-con-links
-{
+section.foot-con-links {
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #b1b1b1;
-    
+
 }
 
-div.web-links>nav>a
-{
+div.web-links>nav>a {
     text-decoration: none;
     color: #efefef;
     place-self: center;
@@ -395,34 +357,33 @@ div.web-links>nav>a
 
 
 
-div.web-links nav
-{
+div.web-links nav {
     display: flex;
     flex-direction: column;
 }
 
-div.web-links nav h4
-{
+div.web-links nav a:first-child {
     font-size: 1.2em;
     font-weight: 600;
     color: #e5e5e5;
     margin: 1em 0;
 }
+
+
 /* Footer third section css */
 
-section.legal-documentation
-{
+section.legal-documentation {
     padding: 2em;
     background-color: #2e2e2e;
     color: #e5e5e5;
 }
-section.legal-documentation a p
-{
+
+section.legal-documentation a p {
     margin-top: 0.5em;
 }
-section.legal-documentation a 
-{
-    
+
+section.legal-documentation a {
+
     color: #e5e5e5;
     text-decoration: none;
 }
@@ -431,14 +392,12 @@ section.legal-documentation a
 
 @media only screen and (max-width:1600px) {}
 
-@media only screen and (max-width:1440px) {
-
-  
-}
+@media only screen and (max-width:1440px) {}
 
 @media only screen and (max-width: 1280px) {
 
-    div.watch-overlay, div.ipad-overlay {
+    div.watch-overlay,
+    div.ipad-overlay {
         top: 2em;
     }
 
@@ -461,26 +420,27 @@ section.legal-documentation a
 
 @media only screen and (max-width:769px) {
 
-    nav.nav-main
-    {
+    nav.nav-main {
         display: none;
     }
 
-    div.show-ham
-    {
+    div.show-ham {
         display: block;
     }
 
-    header
-    {
+    header {
         justify-content: space-between;
     }
 
-    section.watch-ipad, section.ipad-macbook {
+    section.watch-ipad,
+    section.ipad-macbook {
         flex-direction: column;
     }
 
-    div.main-product1, div.main-product2,div.main-productpro1,div.main-productpro2 {
+    div.main-product1,
+    div.main-product2,
+    div.main-productpro1,
+    div.main-productpro2 {
         width: 100%;
         margin: 0.4em 0em 0.4em 0em;
     }
@@ -490,48 +450,44 @@ section.legal-documentation a
 
 @media only screen and (max-width: 640px) {
 
-    
-section.masthead-sec {
-padding: 2em;
-}
 
-div.show-ham>img
-{
-    width: 1.9em;
-}
+    section.masthead-sec {
+        padding: 2em;
+    }
 
-div.overlay {
-    color: rgb(226, 230, 233);
-    font-weight: bold;
-    width: 90%;
-    font-size: 2em;
-}
+    div.show-ham>img {
+        width: 1.9em;
+    }
 
-div.foot-heading {
-    width: 100%;
-}
+    div.overlay {
+        color: rgb(226, 230, 233);
+        font-weight: bold;
+        width: 90%;
+        font-size: 2em;
+    }
 
-section.foot-con-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    div.foot-heading {
+        width: 100%;
+    }
 
-div.web-links>nav>a
-{
-    font-size: 1.3em;
-}
+    section.foot-con-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-div.web-links nav h4
-{
-    font-size: 1.5em;
-} 
+    div.web-links>nav>a {
+        font-size: 1.3em;
+    }
 
-div.watch-overlay>img
-{
-    width: 7em;
-}
-   
+    div.web-links nav h4 {
+        font-size: 1.5em;
+    }
+
+    div.watch-overlay>img {
+        width: 7em;
+    }
+
 }
 
 
@@ -540,7 +496,7 @@ div.watch-overlay>img
     div.overlay {
         font-size: 1.8em;
     }
-   
+
 }
 
 /* css for responsivness ends */
