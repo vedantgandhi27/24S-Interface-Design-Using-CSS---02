@@ -8,12 +8,11 @@ body {
   section
   {
     background-color: black;
-    /* background: linear-gradient(#f5f5f7, #f5f5f7); */
   }
   
   .container {
     display: flex;
-    flex-wrap: wrap; /* Ensure the container wraps on smaller screens */
+    flex-wrap: wrap; 
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -21,35 +20,32 @@ body {
   }
   
   .left {
-      /* flex: 1; */ 
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      /* padding-top: 135px; */
   }
   
   .row {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Adjust the gap between images as needed */
+    gap: 20px; 
   }
   
   .first-watch-image {
-    width: 100%; /* Make the image responsive */
-    max-width: 500px; /* Maintain a max width */
+    width: 100%;
+    max-width: 500px;
     height: auto;
     margin-bottom: 20px;
   }
   
   .watch-image {
-    width: 100%; /* Make the image responsive */
-    max-width: 153px; /* Maintain a max width */
+    width: 100%;
+    max-width: 153px; 
     height: auto;
   }
   
   .options {
-    /* flex: 2; */
     padding: 20px;
     background-color: rgb(252, 252, 252) ;
     margin-top: 2em;
@@ -60,7 +56,6 @@ body {
     font-size: 2.5em;
     font-family: "Lexend Deca", sans-serif;    margin: 0;
     color: rgb(216, 222, 227);
-    /* margin-bottom: 1em; */
     margin: 0em 0 1em 0;
     padding-top: 1em;
     place-content: center;
@@ -91,7 +86,6 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* font-family: "Lexend Deca", sans-serif; */
     font-family: "Poppins", sans-serif;
   }
   
@@ -144,16 +138,12 @@ body {
     padding: 20px;
     background-color: white ;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* color: aliceblue; */
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    
   }
   
   .tech-specs h2 {
     font-size: 2em;
-    /* margin-bottom: 20px; */
     margin: 1em 0 1.5em 0;
-
     text-align: center;
     font-family: "Lexend Deca", sans-serif;
   }
@@ -190,7 +180,7 @@ body {
   
   .dimensions {
     display: flex;
-    flex-wrap: wrap; /* Allow dimensions to wrap on smaller screens */
+    flex-wrap: wrap; 
     justify-content: space-around;
     margin-top: 20px;
   }
@@ -201,8 +191,8 @@ body {
   }
   
   .dimension img {
-    width: 100%; /* Make the image responsive */
-    max-width: 100px; /* Maintain a max width */
+    width: 100%;
+    max-width: 100px; 
     height: auto;
     margin-bottom: 10px;
   }
@@ -260,7 +250,6 @@ body {
   
   @media (max-width: 480px) {
     h1 {
-      /* font-size: 2em; */
       margin-left: 50px;
     }
   
