@@ -1,10 +1,20 @@
+header_footer();//Calls the function
+
+// Gets the code from header and foother html
+function header_footer()
+{
+    $("header").load("header.html");
+    $("footer").load("footer.html");
+}
+
+
 // Method for hamburger menu
 function toggleMenu(){
     console.log("working");
     const menu = document.querySelector("div.ham-menu");
     menu.classList.toggle("show_class");
     document.body.classList.toggle("no-scroll");
-}
+}    
 
 // Code for product details page for showing different view of the product images
 let var1 = document.querySelectorAll(".contact_topic")[0];
@@ -19,16 +29,6 @@ picture.forEach(pic => {
         let mnimg = document.querySelector(".ipad-assests>img");
         // shows the image
         mnimg.setAttribute("src",pic.getAttribute("src"));
-    });
-}); 
-
-header_footer();//Calls the function
-
-// Gets the code from header and foother html
-function header_footer()
-{
-    $("header").load("header.html");
-    $("footer").load("footer.html");
-}
-
+    });    
+});     
 
