@@ -21,3 +21,14 @@ picture.forEach(pic => {
         mnimg.setAttribute("src",pic.getAttribute("src"));
     });
 }); 
+
+header_footer();//Calls the function
+
+// Gets the code from header and foother html
+function header_footer()
+{
+    $("header").load("header.html");
+    $("footer").load("footer.html");
+}
+
+

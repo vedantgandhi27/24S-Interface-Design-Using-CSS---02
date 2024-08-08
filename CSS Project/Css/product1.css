@@ -102,6 +102,15 @@ div.chip-details>h3 {
 
 }
 
+div.chip-img>img {
+    box-shadow: 6px 6px 8px 0px #fff7e7;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+div.chip-img>img:hover {
+    box-shadow: 11px 10px 20px 3px #fff7e7;
+}
+
 /* Css for buying option */
 
 section.buying-opt {

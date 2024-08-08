@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #1d1d1f;
+}
+
+h1{
+    font-size: 3.5em;
+    font-family: "Timmana", sans-serif;
+    letter-spacing: 2px;
+}
+
+.contectus {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: -webkit-center;
+}
+
+.getSupport {
+    background-color: #1d1d1f;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.getSupport >p
+{
+    font-family: "Poppins", sans-serif;
+}
+
+.getSupport img{
+    width: 75%;
+}
+
+.getSupport h2
+{
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+}
+
+.sign-in {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: black;
+    background-color: white; 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.apple_id,.first_name,.last_name,.email
+{
+    width: 100%;
+}
+
+.form h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.form input[type="text"],
+.form input[type="email"]    {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section.form>div
+{
+    width: 100%;
+}
+
+.name input {
+    width: calc(50% - 10px);
+}
+
+.email input {
+    width: 100%;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    margin: 10px 0;
+    margin-bottom: 2em;
+}
+
+.gender input {
+    margin-right: 10px;
+}
+
+.gender label {
+    margin-right: 20px;
+    padding: 20px;
+}
+
+button[type="submit"] {
+    background-color: rgb(58, 53, 53);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover
+{
+    background-color: black;
+}
+
+/* Responsivnes */
+
+@media only screen and (max-width: 530px) {
+
+    .gender
+    {
+        display: flex;
+    flex-direction: column;
+    }
+
+    .gender div
+    {
+        margin-bottom: 1em;
+    }
+}
